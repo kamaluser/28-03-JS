@@ -1,0 +1,43 @@
+.tab{
+    display: none;
+    padding: 40px;
+}
+.tab.active{
+    display: block;
+}
+ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+ul li{
+    list-style-type: none;
+    padding: 14px;
+    flex-grow: 1;
+    background-color:  rgb(198, 203, 204);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+ul li:hover{
+    background-color:  rgb(119, 117, 117);
+}
+
+ul li.active{
+    background-color:  rgb(119, 117, 117);
+}
+
+.tab.active.bgGray{
+    background-color: gray;
+}
+
+.tab.active.bgBlue{
+    background-color: blue;
+}
+.tab.active.bgRed{
+    background-color: red;
+}
+.tab.active.bgGreen{
+    background-color: green;
+}
